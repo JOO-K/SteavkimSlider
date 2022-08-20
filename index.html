@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--      Website Title     -->
+        <title>E.JOO.DES</title>
+
+        <!--      Presets     -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+
+        <!--      Links to Style Sheets (CSS)    -->
+        <link type="text/css" rel="stylesheet" href="styles.css">
+
+
+        <!--      Icon for the Website. Use a PNG for better results.      -->
+        <link rel="icon" type="image/png" href="images/plusicon.png">
+
+
+        <!--      Links to any Google Fonts      -->
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+
+
+        <!--      Javascript Library CDN (Javacscript API's for Effects)    -->
+
+        <!--      Jquery (Huge js libarary full of many smaller libraries, broad usage)     -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--      P5.JS is used for interactivity, responsive animation, and art+science philo. Also quite diverse in usage     -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+        <!--      Text Animations for writing/typing     -->
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <!--      Slideshow Library     -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/><script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+
+        <!--            -->
+
+    </head>
+
+    <body>
+        
+        <div class="bgimage">
+            <img src="https://images.squarespace-cdn.com/content/v1/51ad0ab7e4b05aa5c1427e2c/1635503422514-2D910RTRT774JSVXY1K6/WIND_TURBINE_WALL-DOUCET-V8.gif">
+        </div>
+
+
+        <div class="swiper" id="firstswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_01.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_05.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_02.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_06.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_03.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_07.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_04.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/Vase_08.png"></a></div>
+               
+            </div>
+        </div>
+        
+<!--
+        <div class="swiper2" id="secondswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+                <div class="swiper-slide"><a href="index.html"><img src="images/AGlogo.png"></a></div>
+            </div>
+        </div>
+-->
+
+       
+       
+        <!-- Initialize Swiper -->
+        <script type="module">
+            var swiper = new Swiper('.swiper', {
+                spaceBetween: 0,
+                slidesPerView: 5,
+                direction:'horizontal',
+                centeredSlides: false,
+                loop: true,
+                speed: 1500,
+                autoplay: {
+                    delay: 100,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                }
+            });
+        </script>
+
+        <!-- Initialize Swiper -->
+        <script type="module">
+            var swiper = new Swiper('.swiper2', {
+                spaceBetween: 0,
+                slidesPerView: 8,
+                direction:'vertical',
+                centeredSlides: false,
+                loop: true,
+                speed: 1500,
+                autoplay: {
+                    delay: 100,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                    reverseDirection: true,
+                }
+            });
+        </script>
+
+
+
+    </body>
+
+</html>

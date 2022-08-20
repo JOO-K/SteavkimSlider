@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Apercu-Light;
+    src: url(./fonts/Apercu-Light.otf);
+}
+
+
+
+
+
+html,
+body {
+
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(31, 127, 133, 0.06);
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.bgimage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.bgimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstswiper{
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#secondswiper{
+    position: absolute;
+    right: 100px;
+}
+
+.swiper-container{
+
+}
+
+.swiper {
+    width: 100vw;
+    height: 200px;
+
+}
+
+.swiper2 {
+    width: 200px;
+    height: 100%;
+
+}
+
+.swiper-wrapper{
+
+}
+
+.swiper-slide {
+
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+
+
+
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.swiper-slide img:hover{
+    filter:drop-shadow(0 0 3px dodgerblue);
+
+
+}
+
+.css-selector {
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+
+
+
+
+
+
+
+
