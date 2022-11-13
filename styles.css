@@ -10,20 +10,18 @@
 html,
 body {
 
-    height: 100%;
-    overflow: hidden;
-    background-color: rgba(31, 127, 133, 0.06);
-    margin: 0px;
-    padding: 0px;
-    background-color: #ffffff;
+
 }
 
 .bgimage{
+    margin:0px;
     width: 100vw;
     height: 100vh;
+    padding: 0px;
 }
 
 .bgimage img{
+    margin:0px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -32,10 +30,7 @@ body {
 #firstswiper{
 
     margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+
 }
 
 #secondswiper{
@@ -49,7 +44,7 @@ body {
 
 .swiper {
     width: 100vw;
-    height: 200px;
+    height: 500px;
 
 }
 
